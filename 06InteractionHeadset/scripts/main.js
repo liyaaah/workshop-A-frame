@@ -32,8 +32,8 @@ var growspeed = 2;
 
 function shrink(){
 myOtherBox.object3D.scale.x /= growspeed;
-myOtherBox.object3D.scale.y *= growspeed;
-
+myOtherBox.object3D.scale.y /= growspeed;
+myOtherBox.object3D.scale.z /= growspeed;
  	//console.log(myOtherBox.object3D.scale);
 }
 
